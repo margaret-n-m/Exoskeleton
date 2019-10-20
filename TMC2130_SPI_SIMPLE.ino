@@ -103,7 +103,7 @@ void setup() {
       delay(100); 
       setRegister(0xF2, 0x00000000); // ENCM_CTRL: encoder mode configuration disabled
       delay(100);           
-/*    setRegister(0xEE, 0x00000000); // DCCTRL
+/*    setRegister(0xEE, 0x00000000); // DCCTRL: dcStep disabled
       delay(100);    
       setRegister(0x01, 0x00000000); // GSTAT: read only
       delay(100);  */
